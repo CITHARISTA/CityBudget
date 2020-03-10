@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sasha\\Desktop\\App\\MapTestProject\\MapTestProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sasha\\Desktop\\App\\App\\MapTask.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\App\\App\\MapTask.csproj",
+        "projectName": "MapTask",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\App\\App\\MapTask.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\sasha\\Desktop\\App\\MapTask.Core\\MapTask.Core.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\App\\MapTask.Core\\MapTask.Core.csproj"
+              },
+              "C:\\Users\\sasha\\Desktop\\App\\MapTaskInterfaces\\MapTaskInterfaces.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\App\\MapTaskInterfaces\\MapTaskInterfaces.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\sasha\\Desktop\\App\\MapTask.Core\\MapTask.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\App\\MapTask.Core\\MapTask.Core.csproj",
+        "projectName": "MapTask.Core",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\App\\MapTask.Core\\MapTask.Core.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\sasha\\Desktop\\App\\MapTaskInterfaces\\MapTaskInterfaces.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\App\\MapTaskInterfaces\\MapTaskInterfaces.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\sasha\\Desktop\\App\\MapTaskInterfaces\\MapTaskInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\App\\MapTaskInterfaces\\MapTaskInterfaces.csproj",
+        "projectName": "MapTaskInterfaces",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\App\\MapTaskInterfaces\\MapTaskInterfaces.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\sasha\\Desktop\\App\\MapTestProject\\MapTestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\App\\MapTestProject\\MapTestProject.csproj",
+        "projectName": "MapTestProject",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\App\\MapTestProject\\MapTestProject.csproj",
+        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\App\\MapTestProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\sasha\\Desktop\\App\\App\\MapTask.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\App\\App\\MapTask.csproj"
+              },
+              "C:\\Users\\sasha\\Desktop\\App\\MapTask.Core\\MapTask.Core.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\App\\MapTask.Core\\MapTask.Core.csproj"
+              },
+              "C:\\Users\\sasha\\Desktop\\App\\MapTaskInterfaces\\MapTaskInterfaces.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\App\\MapTaskInterfaces\\MapTaskInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

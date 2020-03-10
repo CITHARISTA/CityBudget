@@ -1,0 +1,2 @@
+MapTaskInterfaces.Entities.City
+MapTaskInterfaces.Entities.City

@@ -1,0 +1,123 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "MapTask/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "MapTask.Core": "1.0.0",
+          "MapTaskInterfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MapTask.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MapTask.dll": {}
+        }
+      },
+      "MapTask.Core/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "MapTaskInterfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MapTask.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MapTask.Core.dll": {}
+        }
+      },
+      "MapTaskInterfaces/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/MapTaskInterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MapTaskInterfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MapTask/1.0.0": {
+      "type": "project",
+      "path": "../App/MapTask.csproj",
+      "msbuildProject": "../App/MapTask.csproj"
+    },
+    "MapTask.Core/1.0.0": {
+      "type": "project",
+      "path": "../MapTask.Core/MapTask.Core.csproj",
+      "msbuildProject": "../MapTask.Core/MapTask.Core.csproj"
+    },
+    "MapTaskInterfaces/1.0.0": {
+      "type": "project",
+      "path": "../MapTaskInterfaces/MapTaskInterfaces.csproj",
+      "msbuildProject": "../MapTaskInterfaces/MapTaskInterfaces.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "MapTask >= 1.0.0",
+      "MapTask.Core >= 1.0.0",
+      "MapTaskInterfaces >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sasha\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\App\\MapTestProject\\MapTestProject.csproj",
+      "projectName": "MapTestProject",
+      "projectPath": "C:\\Users\\sasha\\Desktop\\App\\MapTestProject\\MapTestProject.csproj",
+      "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sasha\\Desktop\\App\\MapTestProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {
+            "C:\\Users\\sasha\\Desktop\\App\\App\\MapTask.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\App\\App\\MapTask.csproj"
+            },
+            "C:\\Users\\sasha\\Desktop\\App\\MapTask.Core\\MapTask.Core.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\App\\MapTask.Core\\MapTask.Core.csproj"
+            },
+            "C:\\Users\\sasha\\Desktop\\App\\MapTaskInterfaces\\MapTaskInterfaces.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\App\\MapTaskInterfaces\\MapTaskInterfaces.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

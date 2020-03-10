@@ -1,0 +1,12 @@
+U:\Users\kosarkov\source\repos\App\MapTaskInterfaces\bin\Debug\MapTaskInterfaces.dll
+U:\Users\kosarkov\source\repos\App\MapTaskInterfaces\bin\Debug\MapTaskInterfaces.pdb
+U:\Users\kosarkov\source\repos\App\MapTaskInterfaces\obj\Debug\MapTaskInterfaces.csproj.CoreCompileInputs.cache
+U:\Users\kosarkov\source\repos\App\MapTaskInterfaces\obj\Debug\MapTaskInterfaces.dll
+U:\Users\kosarkov\source\repos\App\MapTaskInterfaces\obj\Debug\MapTaskInterfaces.pdb
+U:\Users\kosarkov\source\repos\App\MapTaskInterfaces\obj\Debug\MapTaskInterfaces.csprojAssemblyReference.cache
+C:\Users\sasha\Desktop\App\MapTaskInterfaces\bin\Debug\MapTaskInterfaces.dll
+C:\Users\sasha\Desktop\App\MapTaskInterfaces\bin\Debug\MapTaskInterfaces.pdb
+C:\Users\sasha\Desktop\App\MapTaskInterfaces\obj\Debug\MapTaskInterfaces.csprojAssemblyReference.cache
+C:\Users\sasha\Desktop\App\MapTaskInterfaces\obj\Debug\MapTaskInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\sasha\Desktop\App\MapTaskInterfaces\obj\Debug\MapTaskInterfaces.dll
+C:\Users\sasha\Desktop\App\MapTaskInterfaces\obj\Debug\MapTaskInterfaces.pdb
